@@ -2,6 +2,8 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Jua', sans-serif;
+    padding: 0;
+    margin: 0;
 }
   
 body {
@@ -23,9 +25,13 @@ h2 {
 
 div {
     width: 300px;
-    height: 140px;
+    height: 200px;
     margin: 0 auto;
     background-color: #ffffff;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -35,13 +41,24 @@ div {
 }
 
 .description {
-    font-size: 18px;
+    font-size: 16px;
     color: #58595B;
     margin-bottom: 16px;
     text-align: left;
-    }
+}
 
 img {
+    display: block;
+    margin: 0 auto;
     width: 300px;
     height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #0000EE;
+    font-size: 16px;
+
 }
